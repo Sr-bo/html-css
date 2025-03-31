@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br, en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /* 
+            Medidas Absolutas
+            cm(centimetro), mm(milímetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+            
+
+            /*Lighter normal bold bolder */
+
+            /* weight(Peso) width(Altura) height(Largura) */
+        }
+        h1{
+            
+            /* shorthand font (mãozinha)
+            -font-style -> font-weight -> font-size -> font-family
+
+            font-family: "work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+
+        h2{
+            font:bold 2em 'work Sans';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quidem rem est quasi ratione magni pariatur, animi quibusdam non sequi et iusto nobis quam itaque numquam minus enim, neque tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, suscipit! Repellendus laboriosam sint dolores adipisci, quos eos facilis natus praesentium quaerat ad provident aliquid impedit iusto aperiam aliquam neque quibusdam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse explicabo alias enim nemo, blanditiis maxime exercitationem quos est, a ullam neque odit dolores vel sapiente minus architecto dolorem expedita! Architecto.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, distinctio? Vel labore laborum consequuntur voluptatem suscipit debitis, neque dignissimos commodi. Perspiciatis ut architecto possimus vel dicta distinctio tempora quas libero!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A temporibus similique itaque dolores obcaecati, doloribus laborum est, totam veritatis deleniti nihil delectus quia dolorum maxime ducimus blanditiis cupiditate ab quis.</p>
+</body>
+</html>
